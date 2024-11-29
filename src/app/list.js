@@ -3,7 +3,7 @@ let STATUS = "TODO" || "DONE";
 let todos = [];
 
 // add new to do task\
-export function addTodo() {
+function addTodo() {
   let modal = document.querySelector("#modal");
   modal.style.display = "block";
   modal.classList.add("show-up");
